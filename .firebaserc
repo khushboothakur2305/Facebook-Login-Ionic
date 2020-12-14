@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "facebook-7de9e": {
+      "hosting": {
+        "app": [
+          "facebook-7de9e"
+        ]
+      }
+    }
+  }
+}

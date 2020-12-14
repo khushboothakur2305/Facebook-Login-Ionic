@@ -1,5 +1,7 @@
 {
   "name": "Facebook",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
