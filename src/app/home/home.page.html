@@ -7,7 +7,10 @@
 <ion-content>
   <ion-button color="secondary" (click)="login()">FB Login</ion-button>
   <div *ngIf="userDetail">
-    <img style="height: 200px; width: 200px" [src]="Details.picture.data.url" />
+    <img
+      style="height: 200px; width: 200px"
+      [src]="Details.picture.data.url"
+    /><br />
     Name:{{Details.name}}<br />
     Email:{{Details.email}}
   </div>
